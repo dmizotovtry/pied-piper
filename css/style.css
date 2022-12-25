@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif, 'Roboto';
+    color: #0000;
+    padding-top: 76px;
+}
+
+/*Header style start*/
+
+.header{
+    font-family: sans-serif, 'Roboto';
+    font-size: 24px;
+    background-color: #007765;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper {
+    max-width: 1219px;
+    padding: 0px 55px;
+}
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_list{
+    display: flex;
+}
+
+.header_item{
+    margin-right: 8px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.header_item:last-child{
+    margin-right: 0;
+}
+
+.header_link{
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .075;
+}
+
+/*Header style end*/
+
+/*Jumbotron style start*/
+
+.jumbotron{
+    background: url(../img/jumbotron_bg.jpg);
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    font-size: 83px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+/*Jumbotron style end*/
+
+/*The Problem style start*/
+
+.the_problem {
+    background-color: #EEEEEE;
+    color: black;
+}
+
+.the_problem h1 {
+    margin: 48 auto;
+    color: #007765;
+    text-align: center;
+}
+
+.the_problem_text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
